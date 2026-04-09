@@ -8,7 +8,7 @@ const BookDetails = () => {
 
     const bookContext = useContext(BookContext);
     // console.log(bookContext);
-    const {handleMarkAsRead} = bookContext;
+    const {handleMarkAsRead, handleWishList} = bookContext;
 
     const expectedBook = books.find(book => book.bookId == id);
     const { bookName, author, image, review, totalPages, rating, category, tags, publisher, yearOfPublishing } = expectedBook;
