@@ -11,8 +11,8 @@ const Navbar = () => {
     );
 
     return (
-        <div className="bg-base-200 shadow-sm w-full rounded-md">
-            <div className='max-lg:collapse sm:w-11/12 mx-auto'>
+        <div className="bg-white py-2 w-full rounded-md">
+            <div className='max-lg:collapse sm:w-10/12 mx-auto'>
                 <input id="navbar-1-toggle" className="peer hidden" type="checkbox" />
                 <label htmlFor="navbar-1-toggle" className="fixed inset-0 hidden max-lg:peer-checked:block"></label>
                 <div className="collapse-title navbar">
@@ -28,7 +28,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="navbar-end flex gap-2 flex-wrap">
-                        <button class="btn btn-success min-w-24 text-white">Sign In</button>
+                        <button className="btn btn-success min-w-24 text-white">Sign In</button>
                         <button className="btn btn-accent min-w-24 text-white">Sign Up</button>
                     </div>
                 </div>
